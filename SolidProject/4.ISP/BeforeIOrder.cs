@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SolidProject
 {
-    public interface IOrder
+    public interface BeforeIOrder
     {
         void PlaceOrder();
         void CancelOrder();
@@ -15,7 +15,7 @@ namespace SolidProject
         void GenerateFrimAtEmail();
         void PrintLable();
     }
-    public class InStoreOrder : IOrder
+    public class InStoreOrder : BeforeIOrder
     {
         // Implementation of null method
         public void CalculateTOTal()

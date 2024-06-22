@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SolidProject
 {
-    public class FileExport
+    public class BeforeFileExport
     {
         public void ExportToCsv(string filePath,DataTable data) 
         { 

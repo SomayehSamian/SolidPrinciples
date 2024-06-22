@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SolidProject
 {
-    public class UserCreator
+    public class BeforeUserCreator
     {
         public void CreateUser(string userName, string email, string password)
         {

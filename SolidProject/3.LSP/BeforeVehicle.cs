@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SolidProject
 {
-    public abstract class Vehicle
+    public abstract class BeforeVehicle
     {
         public abstract void StartEngine();
         public abstract void StopEngine();
     }
-    public class Car : Vehicle
+    public class Car : BeforeVehicle
     {
         public override void StopEngine()
         {
@@ -23,7 +23,7 @@ namespace SolidProject
             Console.WriteLine("starting the car engine");
         }
     }
-    public class ElectricCar : Vehicle
+    public class ElectricCar : BeforeVehicle
     {
         public override void StopEngine()
         {

@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 namespace SolidProject
 {
 
-    public class UserService
+    public class BeforeUserService
     {
         private readonly IDataSrtorage _database;
-        public UserService(IDataSrtorage database)
+        public BeforeUserService(IDataSrtorage database)
         {
             _database = database;
         }

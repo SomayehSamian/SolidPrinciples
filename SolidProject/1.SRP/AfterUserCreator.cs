@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SolidProject
 {
-    public class S_UserCreator
+    public class AfterUserCreator
     {
         private readonly UserValidator _userValidator;
         private readonly UserRepostitory _userRepostitory;
 
-        public S_UserCreator(UserValidator userValidator, UserRepostitory userRepostitory)
+        public AfterUserCreator(UserValidator userValidator, UserRepostitory userRepostitory)
         {
             _userValidator = userValidator;
             _userRepostitory = userRepostitory;

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace SolidProject
 {
-    public abstract class O_FileExport
+    public abstract class AfterFileExport
     {
         public abstract void Export(string filePath, DataTable data);
     }
 
-    public class CsvFileExport: O_FileExport
+    public class CsvFileExport: AfterFileExport
     {
       public override void Export(string filePath, DataTable data)
         {
@@ -20,7 +20,7 @@ namespace SolidProject
         }
     }
 
-    public class JsonFileExport : O_FileExport
+    public class JsonFileExport : AfterFileExport
     {
         public override void Export(string filePath, DataTable data)
         {
