@@ -22,4 +22,4 @@ be used in a class called S-UserCreator
 ## Contact
 
 For more information or questions, feel free to reach out:
-- Email: SomayeShirzad1400@gmail.com.com
+- Email: SomayeShirzad1400@gmail.com
